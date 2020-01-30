@@ -1,6 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('../assets/paper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
 header {
     width: 80%;
-    margin: 0 auto;
+    margin: 200px auto 50px auto;
 }
 
 h1 {
@@ -11,4 +27,25 @@ h1 {
 main {
     width: 80%;
     margin: 0 auto;
+}
+
+#user-form img {
+    width: 60px;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px 0;
+}
+
+[type="radio"] {
+    display: none;
+}
+
+
+
+input:checked + img {
+    border: 2px solid #FF6D41;
+    border-radius: 50%;
 }
