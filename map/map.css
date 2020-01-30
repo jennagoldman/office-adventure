@@ -1,7 +1,24 @@
 #map {
-    background-image: url('../assets/dundermifflin.png');
-    background-size: cover;
-    height: 350px;
     width: 100%;
-    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    z-index: 2;
+}
+
+.level-link {
+    color: #000;
+    background: #FFF;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 2px 4px;
+}
+
+.level-link:hover {
+    color: #FFF;
+    background: #57AFDD;
 }

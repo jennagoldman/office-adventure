@@ -2,8 +2,8 @@ const parkinglot = {
     id: 'parkinglot',
     name: 'Parking Lot',
     map: {
-        top: '10%',
-        left: '10%',
+        top: '80%',
+        left: '70%',
     },
     image: '',
     description: 'After parking your car, you make your way across the parking lot toward the building. Suddenly, you hear screeching tires, and look back to see Meredith in her van, careening right at you.',
@@ -29,8 +29,8 @@ const conference = {
     id: 'conference',
     name: 'Conference Room',
     map: {
-        top: '10%',
-        left: '10%',
+        top: '67%',
+        left: '53%',
     },
     image: '',
     description: '"Ok, everybody! Conference room, now!" Michael yells. Oh boy, not another boring conference. You wonder what ridiculous topic Michael has to go over today.',
@@ -52,7 +52,7 @@ const conference = {
     }]
 };
 
-export const levels = [
+export const levelsData = [
     parkinglot,
     conference
 ];

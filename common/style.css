@@ -12,14 +12,15 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 800px;
+    width: 80%;
+    height: 750px;
     margin: 0 auto;
     position: relative;
     bottom: 200px;
 }
 
 #content-container {
-    width: 70%;
+    width: 65%;
     height: 650px;
     margin: 250px auto;
     padding: 5px;
@@ -61,4 +62,12 @@ button {
 input:checked + img {
     border: 2px solid #FF6D41;
     border-radius: 50%;
+}
+
+#user-avatar {
+    width: 30px;
+}
+
+#user-state span {
+    font-weight: bold;
 }

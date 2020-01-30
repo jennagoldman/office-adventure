@@ -11,14 +11,24 @@
     <div id="paper-container">
         <div id="content-container">
             <header>
-                <h1>It is your birthday.</h1>
-                <h2>An Office Adventure Game</h2>
+                <div>
+                    <h1>It is your birthday.</h1>
+                    <h2>An Office Adventure Game</h2>
+                </div>
+                <div id="user-state">
+                    <img id="user-avatar">
+                    User: <span id="user-name"></span>
+                    Schrute Bucks: <span id="user-points"></span>
+                </div>
             </header>
 
             <main>
-                <div id="map"></div>
+                <div id="map-container">
+                    <img src="../assets/dundermifflin.png" id="map" />
+                </div>
             </main>
         </div>
     </div>
+    <script type="module" src="./map.js"></script>
 </body>
 </html>
