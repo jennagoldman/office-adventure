@@ -12,7 +12,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 80%;
+    width: 1000px;
     height: 750px;
     margin: 0 auto;
     position: relative;
@@ -70,4 +70,22 @@ input:checked + img {
 
 #user-state span {
     font-weight: bold;
+}
+
+#user-detail-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#points-img {
+    width: 50px;
+    margin: 0 2px -2px 2px;
+}
+#user-state {
+    margin-top: 3px;
+}
+
+#user-state span {
+    font-size: 24px;
+    margin-right: 15px;
 }

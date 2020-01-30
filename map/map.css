@@ -22,3 +22,8 @@ a {
     color: #FFF;
     background: #57AFDD;
 }
+
+#map-header {
+    display: flex;
+    justify-content: space-around;
+}
