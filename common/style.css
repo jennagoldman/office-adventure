@@ -2,21 +2,36 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
+body {
+    background: #57AFDD;
+    margin: 0;
 }
 
-body {
+#paper-container {
     background-image: url('../assets/paper.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
-    height: 100%;
+    background-position: center;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 200px;
+}
+
+#content-container {
+    width: 70%;
+    height: 650px;
+    margin: 250px auto;
+    padding: 5px;
 }
 
 header {
-    width: 80%;
-    margin: 200px auto 50px auto;
+    width: 90%;
+    margin: 125px auto 30px auto;
+}
+
+h1, h2 {
+    margin: 5px;
 }
 
 h1 {
@@ -25,7 +40,7 @@ h1 {
 }
 
 main {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -42,8 +57,6 @@ button {
 [type="radio"] {
     display: none;
 }
-
-
 
 input:checked + img {
     border: 2px solid #FF6D41;
