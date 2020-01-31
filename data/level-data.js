@@ -5,7 +5,7 @@ const parkinglot = {
         top: '80%',
         left: '70%',
     },
-    image: '',
+    image: '../assets/levels/parkinglot.png',
     description: 'After parking your car, you make your way across the parking lot toward the building. Suddenly, you hear screeching tires, and look back to see Meredith in her van, careening right at you.',
     choices: [{
         id: 'choice1',

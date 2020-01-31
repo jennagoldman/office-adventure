@@ -22,7 +22,7 @@ body {
 #content-container {
     width: 65%;
     height: 650px;
-    margin: 250px auto;
+    margin: 200px auto;
     padding: 5px;
 }
 
@@ -55,7 +55,7 @@ button {
     margin: 20px 0;
 }
 
-[type="radio"] {
+#user-form [type="radio"] {
     display: none;
 }
 

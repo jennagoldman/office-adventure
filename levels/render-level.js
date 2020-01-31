@@ -1,15 +1,7 @@
 const levelTitle = document.getElementById('level-title');
 const levelImg = document.getElementById('level-image');
 const levelDescription = document.getElementById('level-description');
-
-const choice1Label = document.getElementById('choice1-label');
-const choice1Radio = document.getElementById('choice1-radio');
-
-const choice2Label = document.getElementById('choice2-label');
-const choice2Radio = document.getElementById('choice2-radio');
-
-const choice3Label = document.getElementById('choice3-label');
-const choice3Radio = document.getElementById('choice3-radio');
+const choicesForm = document.getElementById('level-choice-form');
 
 
 export function renderLevel(level) {
@@ -18,4 +10,26 @@ export function renderLevel(level) {
     levelDescription.textContent = level.description;
 
     // syntax for rendering level choices will go here
+
+    level.choices.forEach(choice => {
+        const choiceLabel = document.createElement('label');
+        choiceLabel.id = `${choice.id}-label`;
+        choiceLabel.setAttribute('for', choice.id);
+
+        const choiceInput = document.createElement('input');
+        choiceInput.type = 'radio';
+        choiceInput.name = 'choices';
+        choiceInput.id = `${choice.id}-radio`;
+        choiceInput.value = choice.id;
+
+        choiceLabel.appendChild(choiceInput);
+
+        const choiceDescription = document.createElement('span');
+        choiceDescription.textContent = choice.description;
+        choiceLabel.appendChild(choiceDescription);
+        choicesForm.insertAdjacentElement('afterBegin', choiceLabel);
+
+        // choicesForm.insertAdjacentElement('afterbegin', choiceInput);
+        
+    });
 }

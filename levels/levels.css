@@ -1,4 +1,24 @@
+
+
 #level-header {
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
+}
+
+label {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+}
+
+#level-image {
+    position: relative;
+    left: 95px;
+}
+
+#game-header {
+    margin-right: 25px;
 }
