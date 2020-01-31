@@ -18,7 +18,7 @@ export function renderLevel(level) {
 
         const choiceInput = document.createElement('input');
         choiceInput.type = 'radio';
-        choiceInput.name = 'choices';
+        choiceInput.name = 'choice';
         choiceInput.id = `${choice.id}-radio`;
         choiceInput.value = choice.id;
 

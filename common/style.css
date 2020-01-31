@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: 'Shadows Into Light Two', serif;
     background: #57AFDD;
     margin: 0;
 }
@@ -20,7 +21,7 @@ body {
 }
 
 #content-container {
-    width: 65%;
+    width: 75%;
     height: 650px;
     margin: 200px auto;
     padding: 5px;
@@ -28,7 +29,7 @@ body {
 
 header {
     width: 90%;
-    margin: 125px auto 30px auto;
+    margin: 125px auto 15px auto;
 }
 
 h1, h2 {
@@ -70,6 +71,7 @@ input:checked + img {
 
 #user-state span {
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 #user-detail-header {
@@ -87,5 +89,6 @@ input:checked + img {
 
 #user-state span {
     font-size: 24px;
+    font-weight: bold;
     margin-right: 15px;
 }

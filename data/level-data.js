@@ -29,11 +29,11 @@ const conference = {
     id: 'conference',
     name: 'Conference Room',
     map: {
-        top: '67%',
-        left: '53%',
+        top: '71%',
+        left: '55%',
     },
     image: '../assets/levels/conference-room.gif',
-    description: '"Ok, everybody! Conference room, now!" Michael yells. Oh boy, not another boring conference. You wonder what ridiculous topic Michael has to go over today.',
+    description: '"Ok, everybody! Conference room, now!" Michael yells. Oh boy, not another one. You wonder what ridiculous topic Michael has to go over today.',
     choices: [{
         id: 'choice1',
         description: 'You bring your crossword puzzle book in case it\'s boring',
@@ -46,9 +46,9 @@ const conference = {
         points: 10,
     }, {
         id: 'choice3',
-        description: 'You look to see where Jim is sitting.',
+        description: 'You look to see where Jim is sitting - he\'s always good for a laugh.',
         result: 'Result of choice',
-        points: 0,
+        points: 5,
     }]
 };
 

@@ -1,9 +1,6 @@
-
-
 #level-header {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
 
 label {
@@ -12,13 +9,31 @@ label {
 
 h3 {
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 #level-image {
+    width: 350px;
     position: relative;
-    left: 95px;
+    left: 155px;
 }
 
 #game-header {
     margin-right: 25px;
+}
+
+button {
+    color: white;
+    background: tomato;
+    font-family: 'Shadows Into Light Two', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 275px;
+    padding: 5px 10px;
+    cursor: pointer;
 }
