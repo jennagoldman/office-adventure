@@ -11,11 +11,11 @@ export function renderPenalty(penalties, user) {
     // conditional display
     if (user.points === 0) {
         penalty = penalties[0];
-        penaltyPTag.textContent = penalty.name;
+        penaltyPTag.textContent = penalty.description;
     } else if (user.points < 0) {
         penalty = penalties[1];
         penaltyImg.src = penalty.image;
-        penaltyPTag.textContent = penalty.name;
+        penaltyPTag.textContent = penalty.description;
     }
 
     penaltyContainer.append(penaltyImg, penaltyPTag);

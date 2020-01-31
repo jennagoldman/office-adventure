@@ -52,8 +52,19 @@ main {
 }
 
 button {
+    color: white;
+    background: tomato;
+    font-family: 'Shadows Into Light Two', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    /* margin-top: 20px;
+    margin-left: 275px; */
+    padding: 5px 10px;
+    cursor: pointer;
     display: block;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 #user-form [type="radio"] {
