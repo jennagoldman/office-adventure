@@ -1,0 +1,35 @@
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#prizes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.prize-div {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.prize-img {
+    height: 100px;
+    margin: 5px;
+};
+
+.prize-span {
+    font-size: 10px;
+    width: 150px;
+}
+
+#penalty-container {
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+}
+
+
+

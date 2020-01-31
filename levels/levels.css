@@ -1,0 +1,30 @@
+#level-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#level-image {
+    width: 350px;
+    position: relative;
+    left: 155px;
+}
+
+#game-header {
+    margin-right: 25px;
+}
+
+#result-text {
+    text-align: center;
+    margin-top: 50px;
+}
