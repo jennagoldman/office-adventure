@@ -23,19 +23,27 @@ renderLevel(level);
 // submit choice and update user state
 choiceForm.addEventListener('submit', (event) => {
     event.preventDefault();
-
+    
+    //get the form data
     const choiceData = new FormData(choiceForm);
     const choiceId = choiceData.get('choice');
     
+    // locate the chosen choice object, and update user's points
     const choiceObject = findById(level.choices, choiceId);
-    
     const choicePoints = choiceObject.points;
-    
     user.points += choicePoints;
+
+    // push current level to completed levels array
     user.completedLevels.push(levelId);
+
+    // save the updated user state
     saveUser(user);
 
     // display choice result
     renderChoiceResult(choiceObject);
+
+    // display updated user state
+    getUser();
+    renderUserState(user);
 });
 

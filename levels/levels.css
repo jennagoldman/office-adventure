@@ -28,17 +28,3 @@ h3 {
     text-align: center;
     margin-top: 50px;
 }
-
-button {
-    color: white;
-    background: tomato;
-    font-family: 'Shadows Into Light Two', serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 3px;
-    margin-top: 20px;
-    margin-left: 275px;
-    padding: 5px 10px;
-    cursor: pointer;
-}
