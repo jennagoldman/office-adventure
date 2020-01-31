@@ -1,8 +1,8 @@
 import { levelsData } from '../data/level-data.js';
 import { renderLevel } from './render-level.js';
+import { renderChoiceResult } from './render-choice-result.js';
 import { renderUserState } from '../common/render-user-state.js';
-import { findById } from '../common/find-by-id.js';
-import { getUser, saveUser } from '../common/utils.js';
+import { getUser, saveUser, findById } from '../common/utils.js';
 
 // get elements from DOM
 const choiceForm = document.getElementById('level-choice-form');
@@ -20,6 +20,7 @@ const levelId = searchParams.get('id');
 const level = findById(levels, levelId);
 renderLevel(level);
 
+// submit choice and update user state
 choiceForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
@@ -34,7 +35,7 @@ choiceForm.addEventListener('submit', (event) => {
     user.completedLevels.push(levelId);
     saveUser(user);
 
-    window.location = '../map/index.html';
-
+    // display choice result
+    renderChoiceResult(choiceObject);
 });
 

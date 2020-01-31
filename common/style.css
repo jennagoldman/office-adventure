@@ -92,3 +92,32 @@ input:checked + img {
     font-weight: bold;
     margin-right: 15px;
 }
+
+.completed-level-link {
+    display:none;
+}
+
+.completed-level-span {
+    background: #FFF;
+    font-size: 12px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    margin: 15px 15px 10px 0;
+    padding: 5px;
+}
+
+footer {
+    background: #FFF;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}

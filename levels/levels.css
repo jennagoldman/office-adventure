@@ -24,6 +24,11 @@ h3 {
     margin-right: 25px;
 }
 
+#result-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
 button {
     color: white;
     background: tomato;

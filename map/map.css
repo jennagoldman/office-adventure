@@ -8,10 +8,6 @@
     justify-content: space-between;
 }
 
-a {
-    z-index: 2;
-}
-
 .level-link {
     color: #000;
     background: #FFF;
@@ -20,6 +16,7 @@ a {
     text-transform: uppercase;
     position: absolute;
     padding: 2px 4px;
+    cursor: pointer;
 }
 
 .level-link:hover {

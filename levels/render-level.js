@@ -10,8 +10,6 @@ export function renderLevel(level) {
     levelImg.src = level.image;
     levelDescription.textContent = level.description;
 
-    // syntax for rendering level choices will go here
-
     renderLevelChoices(level);
 }
 

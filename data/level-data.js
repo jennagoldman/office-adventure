@@ -37,17 +37,17 @@ const conference = {
     choices: [{
         id: 'choice1',
         description: 'You bring your crossword puzzle book in case it\'s boring',
-        result: 'Result of choice',
-        points: 0,
+        result: 'You lose FIVE Schrute Bucks.',
+        points: -5,
     }, {
         id: 'choice2',
         description: 'Michael is the best boss, you\'ll support him whatever the meeting topic is.',
-        result: 'Result of choice',
+        result: 'You earn TEN Schrute Bucks.',
         points: 10,
     }, {
         id: 'choice3',
         description: 'You look to see where Jim is sitting - he\'s always good for a laugh.',
-        result: 'Result of choice',
+        result: 'Your earn FIVE Schrute Bucks.',
         points: 5,
     }]
 };
